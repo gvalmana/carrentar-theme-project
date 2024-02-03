@@ -8,8 +8,6 @@ body {
   background-color: whitesmoke;
   height: 100%;
   padding-top: 90px;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Quicksand', sans-serif;
 }
 
 .wraper {
@@ -22,47 +20,11 @@ body {
   height: 100%;
 }
 
-.card {
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-  width: 100%;
-}
-
-.button-reserv {
-  border-radius: 50px;
-}
-
-.button-prices {
-  background-color: rgb(153, 237, 101); /* Color verde */
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 0;
-  border: none;
-  color: rgb(89, 88, 88);
-  font-weight: bold;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.07);
-  padding: 5px 10px;
-}
-
 .title {
   font-weight: bold;
-}
-
-nav {
-  background-color: rgb(153, 237, 101);
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.07);
-  text-align: center;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0px;
-  height: 60px;
-  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a.active {
@@ -71,10 +33,9 @@ a.active {
     text-underline-offset: 0.5em;     
 }
 
-img.products {
-    max-width: 300px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
-    margin-bottom: 10px;
+.card-title{
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  padding-left: 40px;
 }
