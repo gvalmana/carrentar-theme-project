@@ -32,6 +32,17 @@ img.products {
   margin-top: 10px;
 }
 
+div.card-title {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  padding-left: 40px;
+  opacity: .8;
+}
+
 div.card-car {
   margin-bottom: 30px;
   margin-left: 30px;
@@ -44,8 +55,10 @@ div.col {
 div.product-data {
   text-align: right;
   margin-right: 30px;
+  opacity: 0.6;
 }
 div.product-info {
   text-align: left;
   margin-left: 30px;
+  opacity: 0.6;
 }

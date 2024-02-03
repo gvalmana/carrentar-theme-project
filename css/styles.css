@@ -25,6 +25,8 @@ body {
   margin-top: 5px;
   margin-bottom: 5px;
   font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.07);
+  opacity: .9;
 }
 
 a.active {
@@ -33,19 +35,12 @@ a.active {
     text-underline-offset: 0.5em;     
 }
 
-.card-title{
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-  text-align: left;
-  padding-left: 40px;
-}
-
 a.scrollup {
   display: none;
-  background: #005eff;
+  background: rgb(51, 73, 217);
   height: 32px;
   width: 32px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   line-height: 32px;
   text-align: center;
@@ -54,7 +49,7 @@ a.scrollup {
   bottom: 10px;
   right: 10px;
   z-index: 9999;
-  /* opacity: .5; */
+  opacity: .9;
   -moz-border-radius: 50% !important;
   -webkit-border-radius: 50% !important;
   border-radius: 50% !important;
