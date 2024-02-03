@@ -7,11 +7,14 @@ body {
   margin-bottom: 60px;
   background-color: whitesmoke;
   height: 100%;
-  padding-top: 78px;
+  padding-top: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
-.wrap {
+.wraper {
   padding-bottom: 60px;
+  width: 90%;
 }
 
 html,
@@ -23,6 +26,7 @@ body {
   border: none;
   border-radius: 0;
   box-shadow: none;
+  width: 100%;
 }
 
 .button-reserv {
@@ -59,4 +63,18 @@ nav {
   bottom: 0px;
   height: 60px;
   width: 100%;
+}
+
+a.active {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.5em;     
+}
+
+img.products {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
 }
