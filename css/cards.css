@@ -52,13 +52,17 @@ div.col {
   text-align: center;
 }
 
-div.product-data {
+div.product-info-right {
   text-align: right;
   margin-right: 30px;
   opacity: 0.6;
 }
-div.product-info {
+div.product-info-left {
   text-align: left;
   margin-left: 30px;
   opacity: 0.6;
+}
+span.fa {
+  opacity: 0.6;
+  margin-right: 8px;
 }
