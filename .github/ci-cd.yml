@@ -47,7 +47,7 @@ jobs:
               docker stop $API
               docker rm $API
             fi
-              docker run -d --name carrentarthemeproject -p 80:8080 $DOCKER_IMAGE
+              docker run -d --name carrentarthemeproject -p 8080:80 $DOCKER_IMAGE
       - name: Check Service on coinhost
         env:
           ENDPOINT: ${{ secrets.ENDPOINT }}
